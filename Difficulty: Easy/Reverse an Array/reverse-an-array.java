@@ -5,7 +5,7 @@ class Solution {
         int right = arr.length - 1;
 
         while (left < right) {
-            // Swap elements
+        
             int temp = arr[left];
             arr[left] = arr[right];
             arr[right] = temp;
@@ -18,3 +18,11 @@ class Solution {
         
     }
 }
+
+
+// MEANWHILE PYTHON 😂😂:
+/* 
+def reverseArray(arr):
+    arr.reverse()
+    return arr
+*/
